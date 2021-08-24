@@ -5,7 +5,7 @@ const Home = () => {
   const [nweet, setNweet] = useState("");
   const onSubmit = async (event) => {
     event.preventDefault();
-    await dbService.collection("emails").add({
+    await dbService.collection("nweets").add({
       nweet,
       createdAt: Date.now()
     })

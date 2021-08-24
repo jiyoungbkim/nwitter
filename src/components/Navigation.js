@@ -9,6 +9,9 @@ const Navigation = () => <nav>
     <li>
       <Link to="/profile">My Profile</Link>
     </li>
+    <li>
+      <Link to="/subscribe">subscribe</Link>
+    </li>
   </ul>
 </nav>;
 
